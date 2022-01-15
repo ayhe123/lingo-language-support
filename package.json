@@ -1,14 +1,20 @@
 {
     "name": "lingo-language-support",
     "displayName": "Lingo language support",
-    "description": "Language support for text based Lingo files",
+    "description": "Language support for Lingo text models",
     "version": "1.0.0",
+    "license": "MIT",
     "engines": {
         "vscode": "^1.63.0"
     },
     "categories": [
         "Programming Languages"
     ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/ayhe123/lingo-language-support.git"
+    },
+    "icon": "img/icon.ico",
     "contributes": {
         "languages": [
             {
