@@ -1,0 +1,41 @@
+{
+    "name": "lingo-language-support",
+    "displayName": "Lingo language support",
+    "description": "Language support for text based Lingo files",
+    "version": "1.0.0",
+    "engines": {
+        "vscode": "^1.63.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [
+            {
+                "id": "lingo",
+                "aliases": [
+                    "Lingo",
+                    "LINGO",
+                    "lingo"
+                ],
+                "extensions": [
+                    ".lng"
+                ],
+                "configuration": "./language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "lingo",
+                "scopeName": "source.lng",
+                "path": "./syntaxes/lingo.tmLanguage.json"
+            }
+        ],
+        "snippets": [
+            {
+                "language": "lingo",
+                "path": "./snippets.json"
+            }
+        ]
+    }
+}

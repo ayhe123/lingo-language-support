@@ -1,0 +1,62 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "lingo",
+	"patterns": [
+		{
+			"include": "#basic"
+		},
+		{
+			"include": "#functions"
+		},
+		{
+			"include": "#keywords"
+		},
+		{
+			"include": "#comments"
+		}
+	],
+	"repository": {
+		"basic": {
+			"patterns": [
+				{
+					"name": "constant.numeric",
+					"match": "\\b([0-9]+)\\b"
+				},
+				{
+					"name": "string.quoted.double",
+					"match": "\".*\""
+				},
+				{
+					"name": "string.quoted.single",
+					"match": "'.*?'"
+				}
+			]
+		},
+		"functions": {
+			"patterns": [
+				{
+					"name": "support.function",
+					"match": "@\\w+"
+				}
+			]
+		},
+		"keywords": {
+			"patterns": [
+				{
+					"name": "keyword",
+					"match": "\\b((?i)(MODEL|END|SETS|ENDSETS|DATA|ENDDATA|INIT|ENDINIT|CALC|ENDCALC))\\b"
+				},
+				{
+					"name": "keyword",
+					"match": "\\b((?i)(MIN|MAX))\\b"
+				}
+			]
+		},
+		"comments": {
+			"begin": "!",
+			"end": ";",
+			"name": "comment"
+		}
+	},
+	"scopeName": "source.lng"
+}

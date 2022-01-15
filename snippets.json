@@ -1,0 +1,1362 @@
+{
+    // Place your snippets for LINGO here. Each snippet is defined under a snippet name and has a prefix, body and 
+    // description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+    // $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the 
+    // same ids are connected.
+    // Example:
+    // "Print to console": {
+    // 	"prefix": "log",
+    // 	"body": [
+    // 		"console.log('$1');",
+    // 		"$2"
+    // 	],
+    // 	"description": "Log output to console"
+    // }
+    "MODEL": {
+        "prefix": "MODEL",
+        "body": [
+            "MODEL:",
+            "$0",
+            "END"
+        ],
+        "description": "The MODEL Section"
+    },
+    "SETS": {
+        "prefix": "SETS",
+        "body": [
+            "SETS:",
+            "$1",
+            "ENDSETS$0"
+        ],
+        "description": "The SETS Section"
+    },
+    "DATA": {
+        "prefix": "DATA",
+        "body": [
+            "DATA:",
+            "$1",
+            "ENDDATA$0"
+        ],
+        "description": "The DATA Section"
+    },
+    "INIT": {
+        "prefix": "INIT",
+        "body": [
+            "INIT:",
+            "$1",
+            "ENDINIT$0"
+        ],
+        "description": "The INIT Section"
+    },
+    "CALC": {
+        "prefix": "CALC",
+        "body": [
+            "CALC:",
+            "$1",
+            "ENDCALC$0"
+        ],
+        "description": "The CALC Section"
+    },
+    "ABS": {
+        "prefix": "@ABS",
+        "body": [
+            "@ABS(${1:X})$0"
+        ],
+        "description": "Mathematical Functions"
+    },
+    "ACOS": {
+        "prefix": "@ACOS",
+        "body": [
+            "@ACOS(${1:X})$0"
+        ],
+        "description": "Mathematical Functions"
+    },
+    "ACOSH": {
+        "prefix": "@ACOSH",
+        "body": [
+            "@ACOSH(${1:X})$0"
+        ],
+        "description": "Mathematical Functions"
+    },
+    "ASIN": {
+        "prefix": "@ASIN",
+        "body": [
+            "@ASIN(${1:X})$0"
+        ],
+        "description": "Mathematical Functions"
+    },
+    "ASINH": {
+        "prefix": "@ASINH",
+        "body": [
+            "@ASINH(${1:X})$0"
+        ],
+        "description": "Mathematical Functions"
+    },
+    "ATAN": {
+        "prefix": "@ATAN",
+        "body": [
+            "@ATAN(${1:X})$0"
+        ],
+        "description": "Mathematical Functions"
+    },
+    "ATANH": {
+        "prefix": "@ATANH",
+        "body": [
+            "@ATANH(${1:X})$0"
+        ],
+        "description": "Mathematical Functions"
+    },
+    "COS": {
+        "prefix": "@COS",
+        "body": [
+            "@COS(${1:X})$0"
+        ],
+        "description": "Mathematical Functions"
+    },
+    "COSH": {
+        "prefix": "@COSH",
+        "body": [
+            "@COSH(${1:X})$0"
+        ],
+        "description": "Mathematical Functions"
+    },
+    "EXP": {
+        "prefix": "@EXP",
+        "body": [
+            "@EXP(${1:X})$0"
+        ],
+        "description": "Mathematical Functions"
+    },
+    "FLOOR": {
+        "prefix": "@FLOOR",
+        "body": [
+            "@FLOOR(${1:X})$0"
+        ],
+        "description": "Mathematical Functions"
+    },
+    "INT": {
+        "prefix": "@INT",
+        "body": [
+            "@INT(${1:X})$0"
+        ],
+        "description": "Mathematical Functions"
+    },
+    "INTEGRAL": {
+        "prefix": "@INTEGRAL",
+        "body": [
+            "INTEGRAL(${1:PROCEDURE}, ${2:X}, ${3:XL}, ${4:XU}, ${5:Y})$0"
+        ],
+        "description": "Mathematical Functions"
+    },
+    "LGM": {
+        "prefix": "@LGM",
+        "body": [
+            "@LGM(${1:X})$0"
+        ],
+        "description": "Mathematical Functions"
+    },
+    "LMTD": {
+        "prefix": "@LMTD",
+        "body": [
+            "@LMTD(${1:X}, ${2:Y})$0"
+        ],
+        "description": "Mathematical Functions"
+    },
+    "LOG": {
+        "prefix": "@LOG",
+        "body": [
+            "@LOG(${1:X})$0"
+        ],
+        "description": "Mathematical Functions"
+    },
+    "LOG10": {
+        "prefix": "@LOG10",
+        "body": [
+            "@LOG10(${1:X})$0"
+        ],
+        "description": "Mathematical Functions"
+    },
+    "LOGB": {
+        "prefix": "@LOGB",
+        "body": [
+            "@LOGB(${1:X}, ${2:B)$0"
+        ],
+        "description": "Mathematical Functions"
+    },
+    "MOD": {
+        "prefix": "@MOD",
+        "body": [
+            "@MOD(${1:X}, ${2:Y})$0"
+        ],
+        "description": "Mathematical Functions"
+    },
+    "PI": {
+        "prefix": "@PI",
+        "body": [
+            "@PI()$0"
+        ],
+        "description": "Mathematical Functions"
+    },
+    "POW": {
+        "prefix": "@POW",
+        "body": [
+            "@POW(${1:X}, ${2:Y})$0"
+        ],
+        "description": "Mathematical Functions"
+    },
+    "RLMTD": {
+        "prefix": "@RLMTD",
+        "body": [
+            "@RLMTD(${1:X}, ${2:Y})$0"
+        ],
+        "description": "Mathematical Functions"
+    },
+    "ROUND": {
+        "prefix": "@ROUND",
+        "body": [
+            "@ROUND(${1:X}, ${2:N})$0"
+        ],
+        "description": "Mathematical Functions"
+    },
+    "ROUNDDOWN": {
+        "prefix": "@ROUNDDOWN",
+        "body": [
+            "@ROUNDDOWN(${1:X}, ${2:N})$0"
+        ],
+        "description": "Mathematical Functions"
+    },
+    "ROUNDUP": {
+        "prefix": "@ROUNDUP",
+        "body": [
+            "@ROUNDUP(${1:X}, ${2:N})$0"
+        ],
+        "description": "Mathematical Functions"
+    },
+    "SIGN": {
+        "prefix": "@SIGN",
+        "body": [
+            "@SIGN(${1:X})$0"
+        ],
+        "description": "Mathematical Functions"
+    },
+    "SIGNPOWER": {
+        "prefix": "@SIGNPOWER",
+        "body": [
+            "@SIGNPOWER(${1:X}, ${2:Y)$0"
+        ],
+        "description": "Mathematical Functions"
+    },
+    "SIN": {
+        "prefix": "@SIN",
+        "body": [
+            "@SIN(${1:X})$0"
+        ],
+        "description": "Mathematical Functions"
+    },
+    "SINH": {
+        "prefix": "@SINH",
+        "body": [
+            "@SINH(${1:X})$0"
+        ],
+        "description": "Mathematical Functions"
+    },
+    "SMAX": {
+        "prefix": "@SMAX",
+        "body": [
+            "@SMAX(${1:X1}, ${2:...})$0"
+        ],
+        "description": "Mathematical Functions"
+    },
+    "SMIN": {
+        "prefix": "@SMIN",
+        "body": [
+            "@SMIN(${1:X1}, ${2:...})$0"
+        ],
+        "description": "Mathematical Functions"
+    },
+    "SQR": {
+        "prefix": "@SQR",
+        "body": [
+            "@SQR(${1:X})$0"
+        ],
+        "description": "Mathematical Functions"
+    },
+    "SQRT": {
+        "prefix": "@SQRT",
+        "body": [
+            "@SQRT(${1:X})$0"
+        ],
+        "description": "Mathematical Functions"
+    },
+    "TAN": {
+        "prefix": "@TAN",
+        "body": [
+            "@TAN(${1:X})$0"
+        ],
+        "description": "Mathematical Functions"
+    },
+    "TANH": {
+        "prefix": "@TANH",
+        "body": [
+            "@TANH(${1:X})$0"
+        ],
+        "description": "Mathematical Functions"
+    },
+    "FPA": {
+        "prefix": "@FPA",
+        "body": [
+            "@FPA(${1:I}, ${2:N})$0"
+        ],
+        "description": "Financial Functions"
+    },
+    "FPL": {
+        "prefix": "@FPL",
+        "body": [
+            "@FPL(${1:I}, ${2:N})$0"
+        ],
+        "description": "Financial Functions"
+    },
+    "NORMINV": {
+        "prefix": "@NORMINV",
+        "body": [
+            "@NORMINV(${1:P}, ${2:MU}, ${3:SIGMA})$0"
+        ],
+        "description": "Probability Functions"
+    },
+    "NORMSINV": {
+        "prefix": "@NORMSINV",
+        "body": [
+            "@NORMSINV(${1:P})$0"
+        ],
+        "description": "Probability Functions"
+    },
+    "PBN": {
+        "prefix": "@PBN",
+        "body": [
+            "@PBN(${1:P}, ${2:N}, ${3:X})$0"
+        ],
+        "description": "Probability Functions"
+    },
+    "PCX": {
+        "prefix": "@PCX",
+        "body": [
+            "@PCX(${1:N}, ${2:X})$0"
+        ],
+        "description": "Probability Functions"
+    },
+    "PEB": {
+        "prefix": "@PEB",
+        "body": [
+            "@PEB(${1:A}, ${2:X})$0"
+        ],
+        "description": "Probability Functions"
+    },
+    "PEL": {
+        "prefix": "@PEL",
+        "body": [
+            "@PEL(${1:A}, ${2:X})$0"
+        ],
+        "description": "Probability Functions"
+    },
+    "PFD": {
+        "prefix": "@PFD",
+        "body": [
+            "@PFD(${1:N}, ${2:D}, ${3:X})$0"
+        ],
+        "description": "Probability Functions"
+    },
+    "PFS": {
+        "prefix": "@PFS",
+        "body": [
+            "@PFS(${1:A}, ${2:X}, ${3:C})$0"
+        ],
+        "description": "Probability Functions"
+    },
+    "PHG": {
+        "prefix": "@PHG",
+        "body": [
+            "@PHG(${1:POP}, ${2:G}, ${3:N}, ${4:X})$0"
+        ],
+        "description": "Probability Functions"
+    },
+    "PPL": {
+        "prefix": "@PPL",
+        "body": [
+            "@PPL(${1:A}, ${2:X})$0"
+        ],
+        "description": "Probability Functions"
+    },
+    "PPS": {
+        "prefix": "@PPS",
+        "body": [
+            "@PPS(${1:A}, ${2:X})$0"
+        ],
+        "description": "Probability Functions"
+    },
+    "PSL": {
+        "prefix": "@PSL",
+        "body": [
+            "@PSL(${1:X})$0"
+        ],
+        "description": "Mathematical Functions"
+    },
+    "PSN": {
+        "prefix": "@PSN",
+        "body": [
+            "@PSN(${1:X})$0"
+        ],
+        "description": "Mathematical Functions"
+    },
+    "PTD": {
+        "prefix": "@PTD",
+        "body": [
+            "@PTD(${1:N}, ${2:X})$0"
+        ],
+        "description": "Probability Functions"
+    },
+    "QRAND": {
+        "prefix": "@QRAND",
+        "body": [
+            "@QRAND(${1:SEED})$0"
+        ],
+        "description": "Probability Functions"
+    },
+    "RAND": {
+        "prefix": "@RAND",
+        "body": [
+            "@RAND(${1:SEED})$0"
+        ],
+        "description": "Probability Functions"
+    },
+    "BIN": {
+        "prefix": "@BIN",
+        "body": [
+            "@BIN(${1:variable})$0"
+        ],
+        "description": "Variable Domain Functions"
+    },
+    "BND": {
+        "prefix": "@BND",
+        "body": [
+            "@BND(${1:lower_bound}, ${2:variable}, ${3:upper_bound})$0"
+        ],
+        "description": "Variable Domain Functions"
+    },
+    "CARD": {
+        "prefix": "@CARD",
+        "body": [
+            "@CARD(${1:'card_set_name'}, ${2:variable})$0"
+        ],
+        "description": "Variable Domain Functions"
+    },
+    "FREE": {
+        "prefix": "@FREE",
+        "body": [
+            "@FREE(${1:variable})$0"
+        ],
+        "description": "Variable Domain Functions"
+    },
+    "GIN": {
+        "prefix": "@GIN",
+        "body": [
+            "@GIN(${1:variable})$0"
+        ],
+        "description": "Variable Domain Functions"
+    },
+    "PRIORITY": {
+        "prefix": "@PRIORITY",
+        "body": [
+            "@PRIORITY(${1:variable}, ${2:priority})$0"
+        ],
+        "description": "Variable Domain Functions"
+    },
+    "SEMIC": {
+        "prefix": "@SEMIC",
+        "body": [
+            "@SEMIC(${1:lower_bound}, ${2:variable}, ${3:upper_bound})$0"
+        ],
+        "description": "Variable Domain Functions"
+    },
+    "SOS1": {
+        "prefix": "@SOS1",
+        "body": [
+            "@SOS1(${1:'sos_set_name'}, ${2:variable})$0"
+        ],
+        "description": "Variable Domain Functions"
+    },
+    "SOS2": {
+        "prefix": "@SOS2",
+        "body": [
+            "@SOS2(${1:'sos_set_name'}, ${2:variable})$0"
+        ],
+        "description": "Variable Domain Functions"
+    },
+    "SOS3": {
+        "prefix": "@SOS3",
+        "body": [
+            "@SOS3(${1:'sos_set_name'}, ${2:variable})$0"
+        ],
+        "description": "Variable Domain Functions"
+    },
+    "POSD": {
+        "prefix": "@POSD",
+        "body": [
+            "@POSD(${1:matrix})$0"
+        ],
+        "description": "Variable Domain Functions"
+    },
+    "IN": {
+        "prefix": "@IN",
+        "body": [
+            "@IN(${1:set_name}, ${2:primitive_index})$0"
+        ],
+        "description": "Set Handling Functions"
+    },
+    "INDEX": {
+        "prefix": "@INDEX",
+        "body": [
+            "@INDEX(${1:set_name}, ${2:set_member})$0"
+        ],
+        "description": "Set Handling Functions"
+    },
+    "INSERT": {
+        "prefix": "@INSERT",
+        "body": [
+            "@INSERT(${1:set_name}, ${2:primitive_index})$0"
+        ],
+        "description": "Set Handling Functions"
+    },
+    "SIZE": {
+        "prefix": "@SIZE",
+        "body": [
+            "@SIZE(${1:set_name})$0"
+        ],
+        "description": "Set Handling Functions"
+    },
+    "WRAP": {
+        "prefix": "@WRAP",
+        "body": [
+            "@WRAP(${1:INDEX}, ${2:LIMIT})$0"
+        ],
+        "description": "Set Handling Functions"
+    },
+    "FOR": {
+        "prefix": "@FOR",
+        "body": [
+            "@FOR(${1:setname}(${2:set_index_list}) | ${3:cond_qualifier}: ${4:exp_list})$0"
+        ],
+        "description": "Set Looping Functions"
+    },
+    "MAX": {
+        "prefix": "@MAX",
+        "body": [
+            "@MAX(${1:setname}(${2:set_index_list}) | ${3:cond_qualifier}: ${4:expression})$0"
+        ],
+        "description": "Set Looping Functions"
+    },
+    "MIN": {
+        "prefix": "@MIN",
+        "body": [
+            "@MIN(${1:setname}(${2:set_index_list}) | ${3:cond_qualifier}: ${4:expression})$0"
+        ],
+        "description": "Set Looping Functions"
+    },
+    "PROD": {
+        "prefix": "@PROD",
+        "body": [
+            "@PROD(${1:setname}(${2:set_index_list}) | ${3:cond_qualifier}: ${4:expression})$0"
+        ],
+        "description": "Set Looping Functions"
+    },
+    "SUM": {
+        "prefix": "@SUM",
+        "body": [
+            "@SUM(${1:setname}(${2:set_index_list}) | ${3:cond_qualifier}: ${4:expression})$0"
+        ],
+        "description": "Set Looping Functions"
+    },
+    "FILE": {
+        "prefix": "@FILE",
+        "body": [
+            "@FILE(${1:'filename'})$0"
+        ],
+        "description": "Interface Functions"
+    },
+    "ODBC": {
+        "prefix": "@ODBC",
+        "body": [
+            "@ODBC(${1:'data_source'}, ${2:'table_name'}, ${3:'cols'})$0"
+        ],
+        "description": "Interface Functions"
+    },
+    "OLE": {
+        "prefix": "@OLE",
+        "body": [
+            "@OLE(${1:'workbook_file'}, ${2:range_name_list})$0"
+        ],
+        "description": "Interface Functions"
+    },
+    "POINTER": {
+        "prefix": "@POINTER",
+        "body": [
+            "@POINTER(${1:N})$0"
+        ],
+        "description": "Interface Functions"
+    },
+    "TEXT": {
+        "prefix": "@TEXT",
+        "body": [
+            "@TEXT(${1:'filename'}, ${2:'a'})$0"
+        ],
+        "description": "Interface Functions"
+    },
+    "PBETACDF": {
+        "prefix": "@PBETACDF",
+        "body": [
+            "@PBETACDF(${1:A}, ${2:B}, ${3:X})$0"
+        ],
+        "description": "Distributions"
+    },
+    "PBETAINV": {
+        "prefix": "@PBETAINV",
+        "body": [
+            "@PBETAINV(${1:A}, ${2:B}, ${3:X})$0"
+        ],
+        "description": "Distributions"
+    },
+    "PBETAPDF": {
+        "prefix": "@PBETAPDF",
+        "body": [
+            "@PBETAPDF(${1:A}, ${2:B}, ${3:X})$0"
+        ],
+        "description": "Distributions"
+    },
+    "PCACYCDF": {
+        "prefix": "@PCACYCDF",
+        "body": [
+            "@PCACYCDF(${1:L}, ${2:S}, ${3:X})$0"
+        ],
+        "description": "Distributions"
+    },
+    "PCACYINV": {
+        "prefix": "@PCACYINV",
+        "body": [
+            "@PCACYINV(${1:L}, ${2:S}, ${3:X})$0"
+        ],
+        "description": "Distributions"
+    },
+    "PCACYPDF": {
+        "prefix": "@PCACYPDF",
+        "body": [
+            "@PCACYPDF(${1:L}, ${2:S}, ${3:X})$0"
+        ],
+        "description": "Distributions"
+    },
+    "PCHISCDF": {
+        "prefix": "@PCHISCDF",
+        "body": [
+            "@PCHISCDF(${1:DF}, ${2:X})$0"
+        ],
+        "description": "Distributions"
+    },
+    "PCHISINV": {
+        "prefix": "@PCHISINV",
+        "body": [
+            "@PCHISINV(${1:DF}, ${2:X})$0"
+        ],
+        "description": "Distributions"
+    },
+    "PCHISPDF": {
+        "prefix": "@PCHISPDF",
+        "body": [
+            "@PCHISPDF(${1:DF}, ${2:X})$0"
+        ],
+        "description": "Distributions"
+    },
+    "PEXPOCDF": {
+        "prefix": "@PEXPOCDF",
+        "body": [
+            "@PEXPOCDF(${1:L}, ${2:X})$0"
+        ],
+        "description": "Distributions"
+    },
+    "PEXPOINV": {
+        "prefix": "@PEXPOINV",
+        "body": [
+            "@PEXPOINV(${1:L}, ${2:X})$0"
+        ],
+        "description": "Distributions"
+    },
+    "PEXPOPDF": {
+        "prefix": "@PEXPOPDF",
+        "body": [
+            "@PEXPOPDF(${1:L}, ${2:X})$0"
+        ],
+        "description": "Distributions"
+    },
+    "PFDSTCDF": {
+        "prefix": "@PFDSTCDF",
+        "body": [
+            "@PFDSTCDF(${1:DF1}, ${2:DF2}, ${3:X})$0"
+        ],
+        "description": "Distributions"
+    },
+    "PFDSTINV": {
+        "prefix": "@PFDSTINV",
+        "body": [
+            "@PFDSTINV(${1:DF1}, ${2:DF2}, ${3:X})$0"
+        ],
+        "description": "Distributions"
+    },
+    "PFDSTPDF": {
+        "prefix": "@PFDSTPDF",
+        "body": [
+            "@PFDSTPDF(${1:DF1}, ${2:DF2}, ${3:X})$0"
+        ],
+        "description": "Distributions"
+    },
+    "PGAMMCDF": {
+        "prefix": "@PGAMMCDF",
+        "body": [
+            "@PGAMMCDF(${1:SC}, ${2:SH}, ${3:X})$0"
+        ],
+        "description": "Distributions"
+    },
+    "PGAMMINV": {
+        "prefix": "@PGAMMINV",
+        "body": [
+            "@PGAMMINV(${1:SC}, ${2:SH}, ${3:X})$0"
+        ],
+        "description": "Distributions"
+    },
+    "PGAMMPDF": {
+        "prefix": "@PGAMMPDF",
+        "body": [
+            "@PGAMMPDF(${1:SC}, ${2:SH}, ${3:X})$0"
+        ],
+        "description": "Distributions"
+    },
+    "PGMBLCDF": {
+        "prefix": "@PGMBLCDF",
+        "body": [
+            "@PGMBLCDF(${1:L}, ${2:S}, ${3:X})$0"
+        ],
+        "description": "Distributions"
+    },
+    "PGMBLINV": {
+        "prefix": "@PGMBLINV",
+        "body": [
+            "@PGMBLINV(${1:L}, ${2:S}, ${3:X})$0"
+        ],
+        "description": "Distributions"
+    },
+    "PGMBLPDF": {
+        "prefix": "@PGMBLPDF",
+        "body": [
+            "@PGMBLPDF(${1:L}, ${2:S}, ${3:X})$0"
+        ],
+        "description": "Distributions"
+    },
+    "PLAPLCDF": {
+        "prefix": "@PLAPLCDF",
+        "body": [
+            "@PLAPLCDF(${1:L}, ${2:S}, ${3:X})$0"
+        ],
+        "description": "Distributions"
+    },
+    "PLAPLINV": {
+        "prefix": "@PLAPLINV",
+        "body": [
+            "@PLAPLINV(${1:L}, ${2:S}, ${3:X})$0"
+        ],
+        "description": "Distributions"
+    },
+    "PLAPLPDF": {
+        "prefix": "@PLAPLPDF",
+        "body": [
+            "@PLAPLPDF(${1:L}, ${2:S}, ${3:X})$0"
+        ],
+        "description": "Distributions"
+    },
+    "PLGSTCDF": {
+        "prefix": "@PLGSTCDF",
+        "body": [
+            "@PLGSTCDF(${1:L}, ${2:S}, ${3:X})$0"
+        ],
+        "description": "Distributions"
+    },
+    "PLGSTINV": {
+        "prefix": "@PLGSTINV",
+        "body": [
+            "@PLGSTINV(${1:L}, ${2:S}, ${3:X})$0"
+        ],
+        "description": "Distributions"
+    },
+    "PLGSTPDF": {
+        "prefix": "@PLGSTPDF",
+        "body": [
+            "@PLGSTPDF(${1:L}, ${2:S}, ${3:X})$0"
+        ],
+        "description": "Distributions"
+    },
+    "PLOGNCDF": {
+        "prefix": "@PLOGNCDF",
+        "body": [
+            "@PLOGNCDF(${1:M}, ${2:S}, ${3:X})$0"
+        ],
+        "description": "Distributions"
+    },
+    "PLOGNINV": {
+        "prefix": "@PLOGNINV",
+        "body": [
+            "@PLOGNINV(${1:M}, ${2:S}, ${3:X})$0"
+        ],
+        "description": "Distributions"
+    },
+    "PLOGNPDF": {
+        "prefix": "@PLOGNPDF",
+        "body": [
+            "@PLOGNPDF(${1:M}, ${2:S}, ${3:X})$0"
+        ],
+        "description": "Distributions"
+    },
+    "PNORMCDF": {
+        "prefix": "@PNORMCDF",
+        "body": [
+            "@PNORMCDF(${1:M}, ${2:S}, ${3:X})$0"
+        ],
+        "description": "Distributions"
+    },
+    "PNORMINV": {
+        "prefix": "@PNORMINV",
+        "body": [
+            "@PNORMINV(${1:M}, ${2:S}, ${3:X})$0"
+        ],
+        "description": "Distributions"
+    },
+    "PNORMPDF": {
+        "prefix": "@PNORMPDF",
+        "body": [
+            "@PNORMPDF(${1:M}, ${2:S}, ${3:X})$0"
+        ],
+        "description": "Distributions"
+    },
+    "PPRTOCDF": {
+        "prefix": "@PPRTOCDF",
+        "body": [
+            "@PPRTOCDF(${1:SC}, ${2:SH}, ${3:X})$0"
+        ],
+        "description": "Distributions"
+    },
+    "PPRTOINV": {
+        "prefix": "@PPRTOINV",
+        "body": [
+            "@PPRTOINV(${1:SC}, ${2:SH}, ${3:X})$0"
+        ],
+        "description": "Distributions"
+    },
+    "PPRTOPDF": {
+        "prefix": "@PPRTOPDF",
+        "body": [
+            "@PPRTOPDF(${1:SC}, ${2:SH}, ${3:X})$0"
+        ],
+        "description": "Distributions"
+    },
+    "PSMSTCDF": {
+        "prefix": "@PSMSTCDF",
+        "body": [
+            "@PSMSTCDF(${1:A}, ${2:X})$0"
+        ],
+        "description": "Distributions"
+    },
+    "PSMSTINV": {
+        "prefix": "@PSMSTINV",
+        "body": [
+            "@PSMSTINV(${1:A}, ${2:X})$0"
+        ],
+        "description": "Distributions"
+    },
+    "PSMSTPDF": {
+        "prefix": "@PSMSTPDF",
+        "body": [
+            "@PSMSTPDF(${1:A}, ${2:X})$0"
+        ],
+        "description": "Distributions"
+    },
+    "PSTUTCDF": {
+        "prefix": "@PSTUTCDF",
+        "body": [
+            "@PSTUTCDF(${1:DF}, ${2:X})$0"
+        ],
+        "description": "Distributions"
+    },
+    "PSTUTINV": {
+        "prefix": "@PSTUTINV",
+        "body": [
+            "@PSTUTINV(${1:DF}, ${2:X})$0"
+        ],
+        "description": "Distributions"
+    },
+    "PSTUTPDF": {
+        "prefix": "@PSTUTPDF",
+        "body": [
+            "@PSTUTPDF(${1:DF}, ${2:X})$0"
+        ],
+        "description": "Distributions"
+    },
+    "PTRIACDF": {
+        "prefix": "@PTRIACDF",
+        "body": [
+            "@PTRIACDF(${1:L}, ${2:U}, ${3:M}, ${4:X})$0"
+        ],
+        "description": "Distributions"
+    },
+    "PTRIAINV": {
+        "prefix": "@PTRIAINV",
+        "body": [
+            "@PTRIAINV(${1:L}, ${2:U}, ${3:M}, ${4:X})$0"
+        ],
+        "description": "Distributions"
+    },
+    "PTRIAPDF": {
+        "prefix": "@PTRIAPDF",
+        "body": [
+            "@PTRIAPDF(${1:L}, ${2:U}, ${3:M}, ${4:X})$0"
+        ],
+        "description": "Distributions"
+    },
+    "PUNIFCDF": {
+        "prefix": "@PUNIFCDF",
+        "body": [
+            "@PUNIFCDF(${1:L}, ${2:U}, ${3:X})$0"
+        ],
+        "description": "Distributions"
+    },
+    "PUNIFINV": {
+        "prefix": "@PUNIFINV",
+        "body": [
+            "@PUNIFINV(${1:L}, ${2:U}, ${3:X})$0"
+        ],
+        "description": "Distributions"
+    },
+    "PUNIFPDF": {
+        "prefix": "@PUNIFPDF",
+        "body": [
+            "@PUNIFPDF(${1:L}, ${2:U}, ${3:X})$0"
+        ],
+        "description": "Distributions"
+    },
+    "PWEIBCDF": {
+        "prefix": "@PWEIBCDF",
+        "body": [
+            "@PWEIBCDF(${1:SC}, ${2:SH}, ${3:X})$0"
+        ],
+        "description": "Distributions"
+    },
+    "PWEIBINV": {
+        "prefix": "@PWEIBINV",
+        "body": [
+            "@PWEIBINV(${1:SC}, ${2:SH}, ${3:X})$0"
+        ],
+        "description": "Distributions"
+    },
+    "PWEIBPDF": {
+        "prefix": "@PWEIBPDF",
+        "body": [
+            "@PWEIBPDF(${1:SC}, ${2:SH}, ${3:X})$0"
+        ],
+        "description": "Distributions"
+    },
+    "PBTBNCDF": {
+        "prefix": "@PBTBNCDF",
+        "body": [
+            "@PBTBNCDF(${1:N}, ${2:A}, ${3:B}, ${4:X})$0"
+        ],
+        "description": "Distributions"
+    },
+    "PBTBNINV": {
+        "prefix": "@PBTBNINV",
+        "body": [
+            "@PBTBNINV(${1:N}, ${2:A}, ${3:B}, ${4:X})$0"
+        ],
+        "description": "Distributions"
+    },
+    "PBTBNPDF": {
+        "prefix": "@PBTBNPDF",
+        "body": [
+            "@PBTBNPDF(${1:N}, ${2:A}, ${3:B}, ${4:X})$0"
+        ],
+        "description": "Distributions"
+    },
+    "PBINOCDF": {
+        "prefix": "@PBINOCDF",
+        "body": [
+            "@PBINOCDF(${1:N}, ${2:P}, ${3:X})$0"
+        ],
+        "description": "Distributions"
+    },
+    "PBINOINV": {
+        "prefix": "@PBINOINV",
+        "body": [
+            "@PBINOINV(${1:N}, ${2:P}, ${3:X})$0"
+        ],
+        "description": "Distributions"
+    },
+    "PBINOPDF": {
+        "prefix": "@PBINOPDF",
+        "body": [
+            "@PBINOPDF(${1:N}, ${2:P}, ${3:X})$0"
+        ],
+        "description": "Distributions"
+    },
+    "PGEOMCDF": {
+        "prefix": "@PGEOMCDF",
+        "body": [
+            "@PGEOMCDF(${1:P}, ${2:X})$0"
+        ],
+        "description": "Distributions"
+    },
+    "PGEOMINV": {
+        "prefix": "@PGEOMINV",
+        "body": [
+            "@PGEOMINV(${1:P}, ${2:X})$0"
+        ],
+        "description": "Distributions"
+    },
+    "PGEOMPDF": {
+        "prefix": "@PGEOMPDF",
+        "body": [
+            "@PGEOMPDF(${1:P}, ${2:X})$0"
+        ],
+        "description": "Distributions"
+    },
+    "PHYPGCDF": {
+        "prefix": "@PHYPGCDF",
+        "body": [
+            "@PHYPGCDF(${1:N}, ${2:D}, ${3:K}, ${4:X})$0"
+        ],
+        "description": "Distributions"
+    },
+    "PHYPGINV": {
+        "prefix": "@PHYPGINV",
+        "body": [
+            "@PHYPGINV(${1:N}, ${2:D}, ${3:K}, ${4:X})$0"
+        ],
+        "description": "Distributions"
+    },
+    "PHYPGPDF": {
+        "prefix": "@PHYPGPDF",
+        "body": [
+            "@PHYPGPDF(${1:N}, ${2:D}, ${3:K}, ${4:X})$0"
+        ],
+        "description": "Distributions"
+    },
+    "PLOGRCDF": {
+        "prefix": "@PLOGRCDF",
+        "body": [
+            "@PLOGRCDF(${1:P}, ${2:X})$0"
+        ],
+        "description": "Distributions"
+    },
+    "PLOGRINV": {
+        "prefix": "@PLOGRINV",
+        "body": [
+            "@PLOGRINV(${1:P}, ${2:X})$0"
+        ],
+        "description": "Distributions"
+    },
+    "PLOGRPDF": {
+        "prefix": "@PLOGRPDF",
+        "body": [
+            "@PLOGRPDF(${1:P}, ${2:X})$0"
+        ],
+        "description": "Distributions"
+    },
+    "PNEGBCDF": {
+        "prefix": "@PNEGBCDF",
+        "body": [
+            "@PNEGBCDF(${1:R}, ${2:P}, ${3:X})$0"
+        ],
+        "description": "Distributions"
+    },
+    "PNEGBINV": {
+        "prefix": "@PNEGBINV",
+        "body": [
+            "@PNEGBINV(${1:R}, ${2:P}, ${3:X})$0"
+        ],
+        "description": "Distributions"
+    },
+    "PNEGBPDF": {
+        "prefix": "@PNEGBPDF",
+        "body": [
+            "@PNEGBPDF(${1:R}, ${2:P}, ${3:X})$0"
+        ],
+        "description": "Distributions"
+    },
+    "PPOISCDF": {
+        "prefix": "@PPOISCDF",
+        "body": [
+            "@PPOISCDF(${1:L}, ${2:X})$0"
+        ],
+        "description": "Distributions"
+    },
+    "PPOISINV": {
+        "prefix": "@PPOISINV",
+        "body": [
+            "@PPOISINV(${1:L}, ${2:X})$0"
+        ],
+        "description": "Distributions"
+    },
+    "PPOISPDF": {
+        "prefix": "@PPOISPDF",
+        "body": [
+            "@PPOISPDF(${1:L}, ${2:X})$0"
+        ],
+        "description": "Distributions"
+    },
+    "DUAL": {
+        "prefix": "@DUAL",
+        "body": [
+            "@DUAL(${1:variable_or_row_name})$0"
+        ],
+        "description": "Report Functions"
+    },
+    "FORMAT": {
+        "prefix": "@FORMAT",
+        "body": [
+            "@FORMAT(${1:value}, ${2:format_descriptor})$0"
+        ],
+        "description": "Report Functions"
+    },
+    "ITERS": {
+        "prefix": "@ITERS",
+        "body": [
+            "@ITERS()$0"
+        ],
+        "description": "Report Functions"
+    },
+    "NAME": {
+        "prefix": "@NAME",
+        "body": [
+            "@NAME(${1:var_or_row_reference})$0"
+        ],
+        "description": "Report Functions"
+    },
+    "NEWLINE": {
+        "prefix": "@NEWLINE",
+        "body": [
+            "@NEWLINE(${1:n})$0"
+        ],
+        "description": "Report Functions"
+    },
+    "OBJBND": {
+        "prefix": "@OBJBND",
+        "body": [
+            "@OBJBND()$0"
+        ],
+        "description": "Report Functions"
+    },
+    "RANGED": {
+        "prefix": "@RANGED",
+        "body": [
+            "@RANGED(${1:variable_or_row_name})$0"
+        ],
+        "description": "Report Functions"
+    },
+    "RANGEU": {
+        "prefix": "@RANGEU",
+        "body": [
+            "@RANGEU(${1:variable_or_row_name})$0"
+        ],
+        "description": "Report Functions"
+    },
+    "STATUS": {
+        "prefix": "@STATUS",
+        "body": [
+            "@STATUS()$0"
+        ],
+        "description": "Report Functions"
+    },
+    "STRLEN": {
+        "prefix": "@STRLEN",
+        "body": [
+            "@STRLEN(${1:string})$0"
+        ],
+        "description": "Report Functions"
+    },
+    "TABLE": {
+        "prefix": "@TABLE",
+        "body": [
+            "@TABLE(${1:'attr|set'})$0"
+        ],
+        "description": "Report Functions"
+    },
+    "WRITE": {
+        "prefix": "@WRITE",
+        "body": [
+            "@WRITE(${1:obj})$0"
+        ],
+        "description": "Report Functions"
+    },
+    "TIME": {
+        "prefix": "@TIME",
+        "body": [
+            "@TIME()$0"
+        ],
+        "description": "Date, Time and Calendar Functions"
+    },
+    "YMD2STM": {
+        "prefix": "@YMD2STM",
+        "body": [
+            "@YMD2STM(${1:year}, ${2:month}, ${3:day}, ${4:hour}, ${5:minute}, ${6:second})$0"
+        ],
+        "description": "Date, Time and Calendar Functions"
+    },
+    "STM2YMD": {
+        "prefix": "@STM2YMD",
+        "body": [
+            "${1:YEAR}, ${2:MON}, ${3:DAY}, ${4:DAYOFWEEK}, ${5:HOUR}, ${6:MIN}, ${7:SEC} = @STM2YMD($8{stm})$0"
+        ],
+        "description": "Date, Time and Calendar Functions"
+    },
+    "STM2YR": {
+        "prefix": "@STM2YR",
+        "body": [
+            "@STM2YR($1{stm})$0"
+        ],
+        "description": "Date, Time and Calendar Functions"
+    },
+    "STM2MON": {
+        "prefix": "@STM2MON",
+        "body": [
+            "@STM2MON($1{stm})$0"
+        ],
+        "description": "Date, Time and Calendar Functions"
+    },
+    "STM2DAY": {
+        "prefix": "@STM2DAY",
+        "body": [
+            "@STM2DAY($1{stm})$0"
+        ],
+        "description": "Date, Time and Calendar Functions"
+    },
+    "STM2HR": {
+        "prefix": "@STM2HR",
+        "body": [
+            "@STM2HR($1{stm})$0"
+        ],
+        "description": "Date, Time and Calendar Functions"
+    },
+    "STM2MIN": {
+        "prefix": "@STM2MIN",
+        "body": [
+            "@STM2MIN($1{stm})$0"
+        ],
+        "description": "Date, Time and Calendar Functions"
+    },
+    "STM2SEC": {
+        "prefix": "@STM2SEC",
+        "body": [
+            "@STM2SEC($1{stm})$0"
+        ],
+        "description": "Date, Time and Calendar Functions"
+    },
+    "STMNOW": {
+        "prefix": "@STMNOW",
+        "body": [
+            "@STMNOW()$0"
+        ],
+        "description": "Date, Time and Calendar Functions"
+    },
+    "STM2DWK": {
+        "prefix": "@STM2DWK",
+        "body": [
+            "@STM2DWK($1{stm})$0"
+        ],
+        "description": "Date, Time and Calendar Functions"
+    },
+    "CHOLESKY": {
+        "prefix": "@CHOLESKY",
+        "body": [
+            "${1:L}, ${2:err} = @CHOLESKY(${3:A})$0"
+        ],
+        "description": "Matrix Functions"
+    },
+    "MTXMU": {
+        "prefix": "@MTXMU",
+        "body": [
+            "${1:A} = @MTXMUL(${2:B}, ${3:C})$0"
+        ],
+        "description": "Matrix Functions"
+    },
+    "DETERMINANT": {
+        "prefix": "@DETERMINANT",
+        "body": [
+            "@DETERMINANT(${1:A})$0"
+        ],
+        "description": "Matrix Functions"
+    },
+    "EIGEN": {
+        "prefix": "@EIGEN",
+        "body": [
+            "${1:LAMDAR}, ${2:VR}, ${3:LAMBDAI}, ${4:VI}, ${5:ERR} = @EIGEN(${6:A})$0"
+        ],
+        "description": "Matrix Functions"
+    },
+    "INVERSE": {
+        "prefix": "@INVERSE",
+        "body": [
+            "${1:AINV}, ${2:err} = @INVERSE(${3:A})$0"
+        ],
+        "description": "Matrix Functions"
+    },
+    "REGRESS": {
+        "prefix": "@REGRESS",
+        "body": [
+            "${1:B}, ${2:b0}, ${3:RES}, ${4:rsq}, ${5:f}, ${6:p}, ${7:var} = @REGRESS(${8:Y}, ${9:X})$0"
+        ],
+        "description": "Matrix Functions"
+    },
+    "TRANSPOSE": {
+        "prefix": "@TRANSPOSE",
+        "body": [
+            "${1:T} = @TRANSPOSE(${2:A})$0"
+        ],
+        "description": "Matrix Functions"
+    },
+    "QRFACTOR": {
+        "prefix": "@QRFACTOR",
+        "body": [
+            "${1:Q}, ${2:R}, ${3:err} = @QRFACTOR(${4:A})$0"
+        ],
+        "description": "Matrix Functions"
+    },
+    "BLOCKROW": {
+        "prefix": "@BLOCKROW",
+        "body": [
+            "@BLOCKROW(${1:block_index}, ${2:row_name})$0"
+        ],
+        "description": "Miscellaneous Functions"
+    },
+    "IF": {
+        "prefix": "@IF",
+        "body": [
+            "@IF(${1:logical_condition}, ${2:true_result}, ${3:false_result})$0"
+        ],
+        "description": "Miscellaneous Functions"
+    },
+    "WARN": {
+        "prefix": "@WARN",
+        "body": [
+            "@WARN(${1:'text'}, ${2:logical_condition})$0"
+        ],
+        "description": "Miscellaneous Functions"
+    },
+    "USER": {
+        "prefix": "@USER",
+        "body": [
+            "@USER(${1:user_determined_arguments})$0"
+        ],
+        "description": "Miscellaneous Functions"
+    }
+}
