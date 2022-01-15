@@ -2,6 +2,7 @@
     "name": "lingo-language-support",
     "displayName": "Lingo language support",
     "description": "Language support for Lingo text models",
+    "publisher": "ayhe",
     "version": "1.0.0",
     "license": "MIT",
     "engines": {
