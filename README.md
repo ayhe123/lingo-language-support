@@ -21,3 +21,7 @@ This extension only support Lingo text models (with `.lng` extension). For binar
 ### 1.0.0
 
 Initial release.
+
+### 1.0.1
+
+Added syntax higlighting and snippets for some elements.

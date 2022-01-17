@@ -21,6 +21,24 @@
         ],
         "description": "The MODEL Section"
     },
+    "SUBMODEL": {
+        "prefix": "SUBMODEL",
+        "body": [
+            "SUBMODEL ${1:NAME}:",
+            "$0",
+            "ENDSUBMODEL"
+        ],
+        "description": "The SUBMODEL Section"
+    },
+    "PROCEDURE": {
+        "prefix": "PROCEDURE",
+        "body": [
+            "PROCEDURE ${1:NAME}:",
+            "$0",
+            "ENDPROCEDURE"
+        ],
+        "description": "The PROCEDURE Section"
+    },
     "SETS": {
         "prefix": "SETS",
         "body": [
@@ -1358,5 +1376,68 @@
             "@USER(${1:user_determined_arguments})$0"
         ],
         "description": "Miscellaneous Functions"
+    },
+    "NOT": {
+        "prefix": "NOT",
+        "body": [
+            "#NOT#$0"
+        ],
+        "description": "Logical Operators"
+    },
+    "EQ": {
+        "prefix": "EQ",
+        "body": [
+            "#EQ#$0"
+        ],
+        "description": "Logical Operators"
+    },
+    "NE": {
+        "prefix": "NE",
+        "body": [
+            "#NE#$0"
+        ],
+        "description": "Logical Operators"
+    },
+    "GT": {
+        "prefix": "GT",
+        "body": [
+            "#GT#$0"
+        ],
+        "description": "Logical Operators"
+    },
+    "GE": {
+        "prefix": "GE",
+        "body": [
+            "#GE#$0"
+        ],
+        "description": "Logical Operators"
+    },
+    "LT": {
+        "prefix": "LT",
+        "body": [
+            "#LT#$0"
+        ],
+        "description": "Logical Operators"
+    },
+    "LE": {
+        "prefix": "LE",
+        "body": [
+            "#LE#$0"
+        ],
+        "description": "Logical Operators"
+    },
+    "AND": {
+        "prefix": "AND",
+        "body": [
+            "#AND#$0"
+        ],
+        "description": "Logical Operators"
+    },
+    "OR": {
+        "prefix": "OR",
+        "body": [
+            "#OR#$0"
+        ],
+        "description": "Logical Operators"
     }
 }
